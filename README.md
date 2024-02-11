@@ -10,10 +10,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 The web server is designed to run on a Linux system with GCC installed for compilation. Ensure you have `gcc` and `make` installed on your system:
 
-\```bash
+`bash
 sudo apt-get update
 sudo apt-get install build-essential
-\```
+`
 
 ### Installing
 
@@ -23,9 +23,9 @@ A step-by-step series of examples that tell you how to get a development env run
 2. Navigate to the project directory.
 3. Use the provided Makefile to compile the server:
 
-\```bash
+`bash
 make
-\```
+`
 
 ### Running the server
 
