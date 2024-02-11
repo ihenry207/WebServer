@@ -46,22 +46,3 @@ To deploy the server on a live system, ensure that the port you intend to use is
 * [GCC](https://gcc.gnu.org/) - The GNU Compiler Collection
 * Make - A tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Authors
-
-* **Your Name** - *Initial work*
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
