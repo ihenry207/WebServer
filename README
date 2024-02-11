@@ -1,21 +1,15 @@
-ECE435 HW#2 -- Spring 2024
+# Simple Web Server in C
 
-Name: Henry Izere
+This project is a simple web server written in C for educational purposes. It's capable of serving static files, including HTML and text files, from its running directory. The server listens on port 8080 by default but can be adapted to use any port.
 
-Something cool: My something was that I wrote my name, "Henry Izere", as a size-2 header, centered. 
+## Getting Started
 
-Answers to Question 2:
-a) 
-    i.  Error Code 404: This indicates a "Not Found" error. 
-    It means the server can't find the requested 
-    resource, usually because the URL is incorrect or the page/file doesn't exist on the server.
-    ii. Error Code 418: This is a humorous and non-standard error code meaning "I'm a teapot." 
-    indicates a server is a teapot and can't brew coffee. It's not meant to be taken seriously
-     and is not expected to affect the client 
-    iii. Error Code 451: This error code means "Unavailable For Legal Reasons." It's used when 
-    access to a resource is blocked due to legal restrictions, like government censorship or copyright issues.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
 
-b) 
-    i. The maine.edu website was running the nginx/1.20.1 web server. This information is provided in the Server response header (Server: nginx/1.20.1).
-    ii. The web server was redirecting because it returned a status code of 302 Moved Temporarily. This status code indicates that the requested resource has been temporarily moved to a different URL,
+The web server is designed to run on a Linux system with GCC installed for compilation. Ensure you have `gcc` and `make` installed on your system:
+
+```bash
+sudo apt-get update
+sudo apt-get install build-essential
